@@ -1,126 +1,116 @@
 ---
 title: "Event 2"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-10-03"
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
+<!-- {{% notice warning %}} 
 ⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+{{% /notice %}} -->
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “AI-Driven Development Life Cycle: Reimagining Software Engineering”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Introduce the transformative impact of generative AI on software development.
+- Demonstrate AI-driven tools like Amazon Q Developer and Kiro for the development lifecycle.
+- Explore automation of repetitive tasks to boost developer productivity.
+- Highlight best practices for integrating AI into architecture, development, testing, deployment, and maintenance.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Toan Huynh** – Instructor, AWS GenAI Specialist
+- **My Nguyen** – Instructor, AI Development Expert
+- **Diem My** – Coordinator, AWS Event Team
+- **Dai Truong** – Coordinator, AWS Event Team
+- **Dinh Nguyen** – Coordinator, AWS Event Team
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Impact of Generative AI on Software Development
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- Generative AI streamlines the software development lifecycle (SDLC).
+- Automates repetitive tasks, reducing manual effort.
+- Enhances focus on creative, high-value development tasks.
 
-#### Transitioning to modern application architecture – Microservices
+#### Amazon Q Developer Demonstration
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Supports end-to-end SDLC: planning, coding, testing, deployment, and maintenance.
+- Automates code generation, debugging, and optimization.
+- Integrates with IDEs to improve developer efficiency.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Kiro Demonstration
 
-#### Domain-Driven Design (DDD)
+- Showcases AI-driven tools for rapid prototyping and deployment.
+- Enables seamless integration with AWS services.
+- Simplifies complex workflows through AI assistance.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Practical Applications of AI-Driven Development
 
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- AI reduces time spent on undifferentiated tasks.
+- Improves code quality and accelerates delivery timelines.
+- Supports secure and scalable application management.
 
 ### Key Takeaways
 
 #### Design Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **AI-first approach**: Prioritize AI tools to enhance development workflows.
+- **Developer empowerment**: Focus on creative tasks by automating routine work.
+- **Collaborative tools**: Align technical and business goals using AI insights.
 
 #### Technical Architecture
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **AI automation**: Use Amazon Q Developer for code generation and debugging.
+- **Prototyping efficiency**: Leverage Kiro for rapid application development.
+- **AWS integration**: Combine AI tools with services like Lambda and S3 for scalability.
 
-#### Modernization Strategy
+#### Development Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- **Streamlined SDLC**: Automate repetitive tasks across development stages.
+- **Iterative improvement**: Use AI to refine code quality and performance.
+- **Secure workflows**: Ensure compliance and security with AI-driven monitoring.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Integrate Amazon Q Developer**: Use in FCJ's Projects for automated coding and debugging.
+- **Pilot Kiro**: Experiment with rapid prototyping for faster MVP delivery.
+- **Automate workflows**: Apply AI tools to streamline testing and deployment in team projects.
+- **Enhance productivity**: Shift focus to creative tasks by reducing manual coding.
+- **Improve collaboration**: Use AI insights to align with business team requirements.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the **“AI-Driven Development Life Cycle: Reimagining Software Engineering”** workshop on October 3, 2025, at AWS Event Hall, L26 Bitexco Tower, Ho Chi Minh City, was an enriching experience as an attendee. Key experiences included:
 
 #### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- Toan Huynh’s demo of Amazon Q Developer showcased practical SDLC automation.
+- My Nguyen’s Kiro demonstration highlighted rapid prototyping capabilities.
 
 #### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- Observed live demos of AI-driven coding and debugging with Amazon Q Developer.
+- Learned Kiro’s role in simplifying complex development workflows.
+- Understood how AI tools integrate with AWS services for seamless deployment.
 
 #### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+- Explored Amazon Q Developer for automating repetitive development tasks.
+- Gained insights into Kiro’s potential for building scalable applications.
+- Learned to use AI for secure and efficient application management.
 
 #### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- Engaged with instructors and coordinators, exchanging ideas on AI-driven development.
+- Connected with peers, fostering collaboration for future AWS projects.
 
 #### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+- AI tools significantly boost productivity by automating routine tasks.
+- Integrating AI into SDLC improves code quality and delivery speed.
+- Collaboration between developers and AI tools enhances project outcomes.
 
 #### Some event photos
-*Add your event photos here*  
+![Event photo](/images/photo2.jpg)
+![Event photo](/images/photo3.jpg)
+![Event photo](/images/photo4.jpg)
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, the workshop provided practical knowledge on AI-driven development, equipping me with skills to integrate tools like Amazon Q Developer and Kiro into my internship projects, enhancing productivity and collaboration.

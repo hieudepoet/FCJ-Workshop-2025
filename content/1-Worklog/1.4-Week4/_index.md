@@ -1,57 +1,69 @@
 ---
 title: "Week 4 Worklog"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-09-29"
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
+<!-- {{% notice warning %}} 
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+{{% /notice %}} -->
 
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Research ideas for Project 1 and explore serverless computing with AWS Lambda.
+* Learn database essentials using Amazon RDS and practice deployments.
+* Explore AWS Support and set up development environments with AWS Toolkit.
+* Investigate AI capabilities with SageMaker and EC2 for Project 1.
+* Explore frontend frameworks and integrate AWS services for practical applications.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Conduct research to come up with ideas for Project 1 <br> - Explore about AWS Lambda <br> - **Practice:** <br>&emsp; + Create Start&Stop Function for EC2<br>                                                                                  | 29/09/2025 | 29/09/2025      | <https://000022.awsstudygroup.com/5-createlambdafunction/> |
+| 3   | - Database Essentials with Amazon Relational Database Service (RDS) <br> - **Pratice:** <br>&emsp; + Create EC2 Instance <br>&emsp; + Create RDS Instance <br>&emsp; + Deploy application                                   | 30/09/2025 | 30/09/2025      | <https://000005.awsstudygroup.com/> |
+| 4   | - Explore about NextJS/ UI Design (for Project 1) <br> - Explore about AWS Support <br> - Development Environment with AWS Toolkit for VS Code <br> - **Practice:** <br>&emsp; + Create Support Case <br>&emsp; + Setup/Configure VS Code DevEnv with AWS Toolkit | 01/10/2025 | 01/10/2025      | <https://000087.awsstudygroup.com/> |
+| 5   | - Explore about NextJS/ UI Design (for Project 1) <br> - Explore about AWS SageMaker(for Project 1) <br> - Explore about EC2's ability to host AI Model (for Project 1)                            | 02/10/2025 | 02/10/2025      |  |
+| 6   | - Explore about NextJS/ UI Design (for Project 1) <br> - Explore about Animated React(for Project 1) <br> - Explore about AWS Lambda + API Gateway <br> - **Practice:** <br>&emsp; + Scaffold a Personal Tech Blog Website with NextJS and Animated React <br>&emsp; + Create AWS Lambda function to create thumbnail for a photo as soon as it has been posted to S3 bucket <br>&emsp; +  Create an API (API Gateway) with methods that built on AWS Lambda Function                                                                                     | 03/10/2025 | 03/10/2025      |  |
 
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Gained knowledge of AWS Lambda for serverless computing.
 
-* Successfully created and configured an AWS Free Tier account.
+* Developed Lambda functions to automate EC2 start/stop operations.
+  
+* Generated ideas for Project 1 through research.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Learned database essentials with Amazon RDS.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Practiced creating EC2 and RDS instances.
 
-* Used AWS CLI to perform basic operations such as:
+* Deployed an application integrating EC2 and RDS.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Explored AWS Support features.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Set up development environment with AWS Toolkit in VS Code.
+
+* Practiced creating a support case.
+
+* Configured VS Code with AWS Toolkit for development.
+
+* Explored AWS SageMaker for AI workloads in Project 1.
+
+* Investigated EC2 hosting for AI models in Project 1.
+
+* Learned about Next.js for Project 1.
+
+* Explored Animate React for animations in Project 1.
+
+* Gained understanding of AWS Lambda with API Gateway.
+
+* Scaffolded a personal tech blog using Next.js and Animate React.
+
+* Created Lambda function for automatic thumbnail generation on S3 uploads.
+
+* Built an API using API Gateway integrated with Lambda functions.
+
+* Enhanced skills in serverless architectures, databases, and AI integration.

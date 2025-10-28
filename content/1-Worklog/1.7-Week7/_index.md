@@ -1,57 +1,58 @@
 ---
 title: "Week 7 Worklog"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-10-20"
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
+<!-- {{% notice warning %}} 
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+{{% /notice %}} -->
 
 
 ### Week 7 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Explore VPBank Hackathon challenges and AWS applications in Vietnamese banking.
+* Research digital charity ideas and AWS services for banking platforms.
+* Develop architecture and proposal for "Digital Charity with Blockchain".
+* Learn AWS services for secure, resilient, high-performing, and cost-optimized architectures.
 
+
+ 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Explore & research VPBank Hackathon's challenges <br> - Explore about topic "Vietnam's Banks that use AWS Service" <br> - Explore AWS Services that help reduce latency, avoid congestion, help the system handle large loads, handle multi-threading, and automatically scale when there are large numbers of requests (Bank's System).                                                                                                   | 20/10/2025 | 20/10/2025      | |
+| 3   | - Research and develop ideas for the topic "Future of Digital Charity" (VPBank Hackathon 2025) <br> - Explore about functions of AWS Kinesis, Secret Manager, SQS, SNS, Step Fucntions, Aurora Serverless, ElastiCache... to apply them to a digital banking platform <br> - Build the system architecture for "Digital Charity with Blockchain&AI" system <br> - Draw the AWS architecture diagram for the "Digital Charity with Blockchain&AI"                                                    | 21/10/2025 | 21/10/2025      |  |
+| 4   | - Complete the VPBank Hackathon 2025 Proposal for "Digital Charity with Blockchain"| 22/10/2025 | 22/10/2025      |  |
+| 5   | - Learn about AWS Services with topic "Secure Architectures" <br> - Learn about AWS Services with topic "Resilient Architectures"                            | 23/10/2025 | 23/10/2025      | |
+| 6   | - Learn about AWS Service with topic "High-Performing Architectures" <br> - Learn about AWS Services with topic "Cost-Optimized Architectures"                                                                                         | 24/10/2025 | 24/10/2025      |  |
 
 
 ### Week 7 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Explored VPBank Hackathon challenges.
 
-* Successfully created and configured an AWS Free Tier account.
+* Researched Vietnamese banks using AWS services.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Investigated AWS services for reducing latency, avoiding congestion, handling large loads, multi-threading, and auto-scaling in banking systems.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Developed ideas for "Future of Digital Charity" topic in VPBank Hackathon.
 
-* Used AWS CLI to perform basic operations such as:
+* Explored functions of AWS Kinesis, Secret Manager, SQS, SNS, Step Functions, Aurora Serverless, and ElastiCache for digital banking applications.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Built system architecture for "Digital Charity with Blockchain&AI".
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Drew AWS architecture diagram for the "Digital Charity with Blockchain&AI" system.
+
+* Completed VPBank Hackathon 2025 proposal for "Digital Charity with Blockchain".
+
+* Learned AWS services for secure architectures.
+
+* Learned AWS services for resilient architectures.
+
+* Learned AWS services for high-performing architectures.
+
+* Learned AWS services for cost-optimized architectures.
+
+* Enhanced understanding of AWS in banking and hackathon project development.
