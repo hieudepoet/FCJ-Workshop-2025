@@ -1,4 +1,4 @@
-baseURL = "https://hieudepoet.github.io/FCJ-Workshop-2025/"
+baseURL = "https://hieudepoet.github.io/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
