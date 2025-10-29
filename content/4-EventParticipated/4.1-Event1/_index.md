@@ -109,8 +109,8 @@ Attending **AWS Cloud Day 2025** was highly valuable, offering deep insights int
 - Blockchain and Web3 offer innovative opportunities when paired with AWS.
 
 #### Some event photos
-![Event photo](/images/photo1.jpg)
-![Event photo](/images/photo5.jpg)
-![Event photo](/images/photo6.jpg)
+![Event photo](/FCJ-Workshop-2025/images/photo1.jpg)
+![Event photo](/FCJ-Workshop-2025/images/photo5.jpg)
+![Event photo](/FCJ-Workshop-2025/images/photo6.jpg)
 
 > Overall, AWS Cloud Day 2025 enriched my technical knowledge and reshaped my approach to cloud engineering, equipping me with practical skills and inspiration for my internship projects and team contributions.
