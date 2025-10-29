@@ -109,8 +109,8 @@ Attending the **“AI-Driven Development Life Cycle: Reimagining Software Engine
 - Collaboration between developers and AI tools enhances project outcomes.
 
 #### Some event photos
-![Event photo](/images/photo2.jpg)
-![Event photo](/images/photo3.jpg)
-![Event photo](/images/photo4.jpg)
+![Event photo](/FCJ-Workshop-2025/images/photo2.jpg)
+![Event photo](/FCJ-Workshop-2025/images/photo3.jpg)
+![Event photo](/FCJ-Workshop-2025/images/photo4.jpg)
 
 > Overall, the workshop provided practical knowledge on AI-driven development, equipping me with skills to integrate tools like Amazon Q Developer and Kiro into my internship projects, enhancing productivity and collaboration.
