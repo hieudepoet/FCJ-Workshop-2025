@@ -54,7 +54,7 @@ The MVP is a **fully serverless architecture**, focusing on scalability, maintai
 - **PrivateLink** for secure communication between Lambda and backend services.  
 - **WAF + IAM policies** for traffic filtering and role-based access control.  
 
-![APT Magic MVP Architecture](/FCJ-Workshop-2025/images/aptMagic_mvp.png)
+![APT Magic MVP Architecture](/AWS-FCJ-Workshop-2025/images/aptMagic_mvp.png)
 
 ---
 

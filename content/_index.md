@@ -30,7 +30,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 12/09/2025 to 12/12/2025
 
-![Your profile picture](/FCJ-Workshop-2025/images/avatar.png)
+![Your profile picture](/AWS-FCJ-Workshop-2025/images/avatar.png)
 
 ### Report Content
 
